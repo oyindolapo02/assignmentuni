@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.background-container {
+  height: 4700px;
+  width: 3500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  margin: auto;
+  height: 760px;
+  width: 2750px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-1 li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 4px;
+  font-size: larger;
+}
+
+.section-1 a {
+  text-decoration: none;
+  color: rgb(117, 114, 114);
+}
+
+.section-1 a:hover {
+  transition: all 400ms linear;
+  color: black;
+}
+
+.logo h1 {
+  font-weight: 150px;
+  font-size: x-large;
+}
+
+.section-2 li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 4px;
+  font-size: larger;
+}
+
+.section-2 {
+  margin-right: 20px;
+}
+
+.section-2 a {
+  text-decoration: none;
+  color: rgb(117, 114, 114);
+}
+
+.section-2 a:hover {
+  transition: all 400ms linear;
+  color: black;
+}
+
+.cont-1 h3 {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  text-align: center;
+}
+
+/* cont-2 sections */
+
+.dark {
+  width: 1374px;
+  background-image: url("../imagefolder/bbbb.jpg");
+}
+
+.dark a {
+  height: 800px;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  /* margin: auto; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  opacity: 0;
+}
+
+.dark:hover a {
+  transition: all 400ms linear;
+  color: grey;
+  opacity: 1;
+}
+
+.dontstop {
+  width: 1374px;
+  background-image: url("../imagefolder/ian-dooley-298769-unsplash.jpg");
+}
+
+.dontstop a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dontstop a:hover {
+  transition: all 400ms linear;
+  color: grey;
+}
+
+.cont-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cont-3 {
+  background-image: url("../imagefolder/cody-davis-253928-unsplash.jpg");
+}
+
+.cont-3 a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-3 a:hover {
+  transition: all 400ms linear;
+  color: grey;
+}
+
+/* cont-4 sections */
+
+.cleanlines {
+  width: 1374px;
+  background-image: url("../imagefolder/matthew-hamilton-351641-unsplash.jpg");
+}
+
+.cleanlines a {
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cleanlines a:hover {
+  transition: all 400ms linear;
+  color: grey;
+}
+
+.allspikes {
+  width: 1374px;
+  background-image: url("../imagefolder/charles-deluvio-695732-unsplash.jpg");
+}
+
+.allspikes a {
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allspikes a:hover {
+  transition: all 400ms linear;
+  color: gray;
+}
+
+.cont-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cont-5 {
+  background-image: url("../imagefolder/dose-juice-1184429-unsplash.jpg");
+}
+
+.cont-5 a {
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-5 a:hover {
+  transition: all 400ms linear;
+  color: gray;
+}
+
+/*  cont-6 section */
+
+.cont-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sophia {
+  width: 1374px;
+  background-image: url("../imagefolder/sophia-valkova-30139-unsplash.jpg");
+}
+
+.sophia a {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sophia a:hover {
+  transition: all 400ms linear;
+  color: gray;
+}
+
+.fabio {
+  width: 1374px;
+  background-image: url("../imagefolder/fabio-comparelli-696506-unsplash.jpg");
+}
